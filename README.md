@@ -1,14 +1,14 @@
-##why need this library
+## why need this library
 
 if you have  used **ReflectionClass** or **ReflectionMethod** of php,you will find that there is a method called **getDocComment**
 ,it means that we can get comment  of specified class (and method of class),so,we can do something with it.
 do you remember Java web Annotation ?? it is a powerful develop tool,but ,this library do not that,it on parse comment,because we never know what you want to do,right ??
 
-##how to use
+## how to use
 
 this library support two function ,as follows:
 
-###get doc comment
+### get doc comment
 
 firstly we  assume there is class called Student:
 
@@ -30,7 +30,7 @@ $doc=\saberyjs\annotation\Annotation::getAnnotation();
 
 Annotation::getAnnotation() return a raw string
 
-###parse comment
+### parse comment
 
 before we get into real code,we must understand that there is a concept called parser,each kind of parser must 
 implement interface called *Parser*, the interface is very simple,i will show you the code:
@@ -74,7 +74,7 @@ $ret=[[
 ```
 you can do  whatever you want with $ret,if you are interested in it,you can read  the composer package called **thinkphp5-route-helper**
 
-##Contact
+## Contact
 
 I am a php developer in **ShenZhen of China**,if you also like open source ,you can contact me ,My QQ is **1174332406**
 
