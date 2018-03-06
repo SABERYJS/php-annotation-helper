@@ -15,10 +15,7 @@
     },
     "autoload":{
         "psr-4":{
-            "saberyjs\\annotation\\Annotation\\":"src/Annotation",
-            "saberyjs\\annotation\\Parser\\":"src/Parser",
-            "saberyjs\\annotation\\PlainAnnotationParser\\":"src/PlainAnnotationParser",
-            "saberyjs\\annotation\\StandardAnnotationParser\\":"src/StandardAnnotationParser"
+            "saberyjs\\annotation\\":"src/Annotation"
         }
     }
 }
