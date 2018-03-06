@@ -1,13 +1,17 @@
 ##why need this library
+
 if you have  used **ReflectionClass** or **ReflectionMethod** of php,you will find that there is a method called **getDocComment**
 ,it means that we can get comment  of specified class (and method of class),so,we can do something with it.
 do you remember Java web Annotation ?? it is a powerful develop tool,but ,this library do not that,it on parse comment,because we never know what you want to do,right ??
 
 ##how to use
+
 this library support two function ,as follows:
 
 ###get doc comment
+
 firstly we  assume there is class called Student:
+
 ```php
 class  Student{
     /**
@@ -19,9 +23,11 @@ class  Student{
     }
 }
 ```
+
 ```php
 $doc=\saberyjs\annotation\Annotation::getAnnotation();
 ```
+
 Annotation::getAnnotation() return a raw string
 
 ###parse comment
