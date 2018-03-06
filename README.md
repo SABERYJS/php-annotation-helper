@@ -68,7 +68,8 @@ $ret=[[
 ```
 you can do  whatever you want with $ret,if you are interested in it,you can read  the composer package called **thinkphp5-route-helper**
 
-##notice
+##Contact
+
 I am a php developer in **ShenZhen of China**,if you also like open source ,you can contact me ,My QQ is **1174332406**
 
 last but not least,have a nice day!!
